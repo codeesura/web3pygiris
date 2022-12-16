@@ -9,7 +9,7 @@ w3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/{infura_key}"))
 
 # Transfer yapmak istediğiniz cüzdanın adresini belirtin
 wallet_address = "your-wallet-address"
-
+private_key = "your-private-key"
 # Cüzdanın bakiyesini okuyun
 balance = w3.eth.getBalance(wallet_address)
 print(f"Transferden once cüzdan bakiyesi : {balance}")
